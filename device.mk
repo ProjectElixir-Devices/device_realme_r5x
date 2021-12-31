@@ -678,3 +678,8 @@ $(call inherit-product, vendor/realme/r5x/r5x-vendor.mk)
 # Board
 TARGET_BOARD_PLATFORM := trinket
 PRODUCT_USES_QCOM_HARDWARE := true
+
+# Pixel Charger
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    product_charger_res_images
